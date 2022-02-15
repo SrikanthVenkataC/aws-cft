@@ -1,0 +1,14 @@
+{
+    "Resources": {
+        "mys3bkt": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName" : "some-s3bkt-cft-12345-mn1001-dev",
+                "VersioningConfiguration": {
+                    "Status": "Enabled"
+                }
+
+            }
+        }
+    }
+}
